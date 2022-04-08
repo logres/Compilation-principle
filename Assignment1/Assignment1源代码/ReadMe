@@ -1,0 +1,9 @@
+flex.l为词法分析源文件、bison.y为语法分析器源文件，TokenType.h为节点类型枚举定义，AST.h与AST.c为多叉树以及语法树节点定义。
+
+输入make命令，生成可执行文件parser。
+
+输入make clean，仅保留源文件。
+
+test_example对应指导书上的4个测试用例。
+
+./Test.sh 执行make，进行4个测试，然后删除源文件外的生成文件。
