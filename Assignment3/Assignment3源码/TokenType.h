@@ -1,0 +1,9 @@
+#ifndef UNITTYPE_H
+#define UNITTYPE_H
+
+typedef enum 
+{
+    TYPE_INT=1,TYPE_FLOAT,TYPE_ID,TYPE_OTHER,TYPE_NONTERMINAL,TYPE_TYPE,
+}TokenType;
+
+#endif
